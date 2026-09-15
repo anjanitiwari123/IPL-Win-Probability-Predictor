@@ -1,0 +1,22 @@
+# Core data handling
+numpy>=1.26
+pandas>=2.0
+
+# Modelling
+# NOTE: scikit-learn >= 1.6 is required. The calibration section uses
+# sklearn.frozen.FrozenEstimator, which replaced the old cv='prefit' argument.
+scikit-learn>=1.6
+xgboost>=2.0
+
+# Plotting (notebook only)
+matplotlib>=3.7
+seaborn>=0.13
+
+# Interpretability (notebook only)
+shap>=0.44
+
+# Model persistence - used by both the notebook and the Streamlit app
+joblib>=1.3
+
+# Web application
+streamlit>=1.30
